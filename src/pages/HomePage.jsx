@@ -4,7 +4,13 @@ import Discover from "../components/discover/Discover";
 import Footer from "../components/footer/Footer";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Navbar />
+      <Discover />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;
