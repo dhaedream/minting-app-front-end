@@ -9,22 +9,23 @@ const Navbar = () => {
       <div className="navbar__logo-container">
         <img className="navbar__logo" src={logo} alt="logo" />
       </div>
-      <div>
-        <p>
-          <Link to="/" className="navbar_links-item">
+      <div className="navbar__links-container">
+        <a>
+          <Link to="/" className="navbar__links-item">
             Home
           </Link>
-        </p>
-        <p>
-          <Link to="/mint" className="navbar_links-item">
+        </a>
+        <a>
+          <Link to="/mint" className="navbar__links-item">
             Mint
           </Link>
-        </p>
-        <p>
-          <Link to="/community" className="navbar_links-item">
+        </a>
+        <a>
+          <Link to="/community" className="navbar__links-item">
             Community
           </Link>
-        </p>
+        </a>
+        <button className="navbar__button">Connect</button>
       </div>
     </div>
   );
