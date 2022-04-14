@@ -9,13 +9,19 @@ const Navbar = () => {
       </div>
       <div>
         <p>
-          <a>Home</a>
+          <Link to="/" className="navbar_links-item">
+            Home
+          </Link>
         </p>
         <p>
-          <a>Mint</a>
+          <Link to="/mint" className="navbar_links-item">
+            Mint
+          </Link>
         </p>
         <p>
-          <a>Community</a>
+          <Link to="/community" className="navbar_links-item">
+            Community
+          </Link>
         </p>
       </div>
     </div>

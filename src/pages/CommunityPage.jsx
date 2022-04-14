@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar";
-import Mint from "../components/mint/Mint";
+import Monsters from "../components/monsters/Monsters";
 import Footer from "../components/footer/Footer";
 
-const MintPage = () => {
+const CommunityPage = () => {
   return (
     <div>
       <Navbar />
-      <Mint />
+      <Monsters />
       <Footer />
     </div>
   );
 };
 
-export default MintPage;
+export default CommunityPage;
