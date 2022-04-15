@@ -34,6 +34,13 @@
   outline: none;
   border: 3px solid rgb(67, 67, 67);
 }
+.discover-right {
+  padding-right: 3vw;
+  position: absolute;
+  /* 15vh looks nice to "float" down  */
+  top: 15vh;
+  right: 0;
+}
 .discover-art {
   width: 50vw;
   /* height: auto; */
