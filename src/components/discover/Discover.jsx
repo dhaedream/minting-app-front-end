@@ -1,4 +1,5 @@
 import React from "react";
+import "./discover.css";
 import alienPet from "../../assets/alien-pet-art.png";
 
 const Discover = () => {
@@ -15,10 +16,10 @@ const Discover = () => {
       </div>
       <div className="discover-right">
         <img src={alienPet} alt="alien-pet" className="discover-art" />
-        <card className="discover-accent-card">
+        <div className="discover-accent-card">
           <span className="discover-accent-span">Meta in Style</span>
           <p>Meta Sidekicks</p>
-        </card>
+        </div>
       </div>
     </div>
   );
