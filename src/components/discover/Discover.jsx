@@ -19,7 +19,7 @@ const Discover = () => {
         <div className="discover-accent-card-container">
           <div className="discover-accent-card">
             <span className="discover-accent-span">Meta in Style</span>
-            <p>Meta Sidekicks</p>
+            <p>Ai Powered Sidekicks</p>
           </div>
         </div>
       </div>
