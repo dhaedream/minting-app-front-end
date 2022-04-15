@@ -1,7 +1,14 @@
+.discover {
+  display: flex;
+  justify-content: space-between;
+}
+.discover-left {
+  width: 40vw;
+  /* height: auto; */
+}
 .discover-art {
   width: 50vw;
   /* height: auto; */
 }
 .discover-art img {
-  width: 100%;
 }
