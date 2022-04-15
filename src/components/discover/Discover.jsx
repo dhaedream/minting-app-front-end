@@ -9,7 +9,8 @@ const Discover = () => {
         <button></button>
       </div>
       <div className="right">
-        <img /> <card></card>
+        <img />
+        <card></card>
       </div>
     </div>
   );
