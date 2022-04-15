@@ -1,17 +1,38 @@
 .discover {
+  /* add section margin  */
+  margin: 3vh 0;
   display: flex;
   justify-content: space-between;
-  height: 60vh;
+  height: 50vh;
   padding: 4vh 0;
+  border: 3px solid rgb(67, 67, 67);
 }
 .discover-left {
   display: flex;
   flex-direction: column;
   max-width: 40vw;
   height: 100%;
+  padding: 0 7vw 0 2vw;
   justify-content: center;
   align-items: center;
+  text-align: right;
   /* position: relative; */
+}
+.discover-left h1 {
+  color: rgb(0, 223, 149);
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+}
+.discover-left p {
+  padding-top: 2vh 0;
+  color: rgb(121, 175, 157);
+  line-height: 1.7rem;
+}
+.discover-button {
+  color: aqua;
+  background: rgba(162, 79, 79, 0);
+  outline: none;
+  border: 3px solid rgb(67, 67, 67);
 }
 .discover-art {
   width: 50vw;
