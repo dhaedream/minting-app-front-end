@@ -12,7 +12,7 @@
   flex-direction: column;
   max-width: 40vw;
   height: 100%;
-  padding: 0 7vw 0 2vw;
+  padding: 0 7vw 0 4vw;
   justify-content: center;
   align-items: center;
   text-align: right;
@@ -20,17 +20,21 @@
 }
 .discover-left h1 {
   color: rgb(0, 223, 149);
-  font-size: 2.2rem;
+  font-size: 3rem;
   line-height: 3.5rem;
 }
 .discover-left p {
   padding-top: 2vh 0;
   color: rgb(121, 175, 157);
   line-height: 1.7rem;
+  font-size: 1.2rem;
 }
 .discover-button {
   color: aqua;
   background: rgba(162, 79, 79, 0);
+  padding: 0.5rem 1.5rem;
+  margin-top: 4vh;
+  font-size: 1.2rem;
   outline: none;
   border: 3px solid rgb(67, 67, 67);
 }
@@ -42,7 +46,9 @@
   right: 0;
 }
 .discover-art {
-  width: 50vw;
+  max-height: 75vh;
+
+  width: auto;
   /* height: auto; */
 }
 .discover-accent-card-container {
@@ -53,6 +59,9 @@
   flex-direction: column;
   align-items: flex-end;
   position: absolute;
-  bottom: -5px;
-  right: 10vw;
+  bottom: 6vh;
+  right: 5vw;
+  background-color: rgba(137, 43, 226, 0.5);
+  padding: 1vh 6vw;
+  text-align: right;
 }
