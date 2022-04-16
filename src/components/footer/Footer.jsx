@@ -1,15 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./footer.css";
 
 const Footer = () => {
   return (
     <div>
-      <div className="footer-links-container">
-        <p>Home</p>
-        <p>Mint</p>
-        <p>Community</p>
-        <button className="navbar__button">Connect</button>
-      </div>
+      <Link to="/" className="navbar__links-item">
+        Home
+      </Link>
+
+      <Link to="/mint" className="navbar__links-item">
+        Mint
+      </Link>
+
+      <Link to="/community" className="navbar__links-item">
+        Community
+      </Link>
+      <button className="footer__button">Connect</button>
     </div>
   );
 };
