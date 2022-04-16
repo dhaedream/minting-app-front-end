@@ -1,6 +1,7 @@
 .discover {
   /* add section margin  */
-  margin: 3vh 0;
+  /* margin: 3vh 0;  */
+  margin: 3vh 0 10vh 0;
   display: flex;
   justify-content: space-between;
   height: 50vh;
