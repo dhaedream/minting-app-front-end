@@ -5,19 +5,27 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <Link to="/" className="navbar__links-item">
-        Home
-      </Link>
-
-      <Link to="/mint" className="navbar__links-item">
-        Mint
-      </Link>
-
-      <Link to="/community" className="navbar__links-item">
-        Community
-      </Link>
-      <button className="footer__button">Connect</button>
+    <div className="footer-container">
+      <div className="footer-links-container">
+        <div>
+          <Link to="/" className="footer__links-item">
+            Home
+          </Link>
+        </div>
+        <div>
+          <Link to="/mint" className="footer__links-item">
+            Mint
+          </Link>
+        </div>
+        <div>
+          <Link to="/community" className="footer__links-item">
+            Community
+          </Link>
+        </div>
+        <div>
+          <button className="footer__button">Connect</button>
+        </div>
+      </div>
     </div>
   );
 };

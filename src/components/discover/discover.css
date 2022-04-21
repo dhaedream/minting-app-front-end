@@ -1,12 +1,13 @@
 .discover {
   /* add section margin  */
   /* margin: 3vh 0;  */
-  margin: 3vh 0 10vh 0;
+  margin: 3vh 0 5vh 0;
   display: flex;
   justify-content: space-between;
   height: 50vh;
   padding: 4vh 0;
   border: 3px solid rgb(67, 67, 67);
+  border-radius: 25px;
 }
 .discover-left {
   display: flex;
