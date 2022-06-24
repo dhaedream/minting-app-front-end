@@ -67,3 +67,9 @@
   padding: 1vh 6vw;
   text-align: right;
 }
+/* medium screen */
+@media screen and (max-width: 992px) {
+}
+/* small screen */
+@media (max-width: 575.98px) {
+}
