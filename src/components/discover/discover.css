@@ -76,7 +76,7 @@
     border: 3px solid yellow;
   }
   .discover-art {
-    max-height: 60vh;
+    max-height: 69vh;
   }
 }
 
@@ -85,11 +85,11 @@
     border: 3px solid white;
   }
   .discover-art {
-    max-height: 54vh;
+    max-height: 56vh;
     /* height: 30vh; */
   }
   .discover-right {
-    padding-right: 1vw;
+    padding-right: -1vw;
     position: absolute;
     /* 15vh looks nice to "float" down  */
     top: 20vh;
@@ -100,12 +100,12 @@
 /* medium screen */
 @media screen and (max-width: 992px) {
   .discover {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 
     margin: 1vh 0 3vh 0;
     display: flex;
     justify-content: space-between;
-    height: 80vh;
+    height: 85vh;
     padding: 5vh 0;
     border: 3px so;
   }
@@ -136,23 +136,62 @@
     /* height: 30vh; */
   }
   .discover-right {
-    padding-right: 5vw;
-    top: 29vh;
+    padding-right: 15vw;
+    top: 35vh;
   }
-  .discover-accent-card {
+  /* .discover-accent-card {
     bottom: 2vh;
     right: 5vw;
-  }
+  } */
   .discover-button {
     align-self: center;
   }
 }
+@media (max-width: 850px) {
+  .discover {
+    height: 90vh;
+  }
+  .discover-left {
+    border: 3px solid orange;
+  }
+  .discover-right {
+    padding-right: 9vw;
+    top: 29vh;
+  }
+  .discover-art {
+    max-height: 58vh;
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 725px) {
+  .discover-left {
+    border: 3px solid blue;
+  }
+  .discover {
+    height: 90vh;
+  }
+  .discover-left-top h1 {
+    font-size: 2rem;
+  }
+  .discover-right {
+    padding-right: 9vw;
+    top: 28vh;
+  }
+  .discover-art {
+    max-height: 55vh;
+    padding: 3rem;
+  }
+}
+
 /* small screen */
 @media (max-width: 575.98px) {
   .discover {
-    border: 3px solid pink;
     margin: 1vh 0 2vh 0;
-    height: 97vh;
+    height: 105vh;
+  }
+  .discover-left {
+    border: 3px solid pink;
   }
   .discover-right {
     padding-right: 0;
@@ -164,16 +203,23 @@
   .discover-left-bottom p {
     font-size: 2rem;
   }
+  .discover-left-top h1 {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 475.98px) {
   .discover {
-    border: 3px solid green;
     margin: 0.7rem;
-    height: 100vh;
+    height: 120vh;
+  }
+  .discover-left {
+    border: 3px solid green;
   }
   .discover-art {
-    min-height: 440px;
-    max-height: 44vh;
+    /* min-height: 440px; */
+    /* max-height: 44vh; */
+    max-height: 380px;
+    height: 44vh;
   }
   .discover-right {
     padding-right: 0;
@@ -181,5 +227,11 @@
     /* 15vh looks nice to "float" down  */
     top: 41vh;
     right: 0;
+  }
+}
+@media (max-width: 355px) {
+  .discover-art {
+    height: 400px;
+    width: auto;
   }
 }
