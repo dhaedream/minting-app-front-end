@@ -10,13 +10,16 @@
   border-radius: 25px;
 }
 .discover-left {
+  border: 3px solid red;
+
   display: flex;
   flex-direction: column;
-  max-width: 40vw;
+  /* max-width: 40vw; */
+  width: 40vw;
   height: 100%;
   padding: 0 7vw 0 4vw;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   text-align: right;
   /* position: relative; */
 }
@@ -30,6 +33,7 @@
   color: rgb(121, 175, 157);
   line-height: 1.7rem;
   font-size: 1.2rem;
+  z-index: 2;
 }
 .discover-button {
   color: aqua;
@@ -49,9 +53,9 @@
 }
 .discover-art {
   max-height: 75vh;
-
   width: auto;
   /* height: auto; */
+  z-index: -1;
 }
 .discover-accent-card-container {
   position: relative;
@@ -67,8 +71,62 @@
   padding: 1vh 6vw;
   text-align: right;
 }
+
+@media screen and (max-width: 1200px) {
+  .discover-left {
+    border: 3px solid white;
+  }
+}
+
 /* medium screen */
 @media screen and (max-width: 992px) {
+  .discover {
+    border: 3px solid blue;
+
+    margin: 1vh 0 3vh 0;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    padding: 5vh 0;
+    border: 3px so;
+  }
+  .discover-left {
+    border: 3px solid red;
+
+    width: 80vw;
+    padding: 0 2vw;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 2vh;
+    /* position: relative; */
+  }
+  .discover-left-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .discover-header {
+    justify-self: flex-start;
+    /* align-self: flex-end; */
+    /* align-item: flex-start; */
+    /* padding-bottom: 20vh; */
+  }
+  .discover-art {
+    max-height: 52vh;
+    /* height: 30vh; */
+  }
+  .discover-right {
+    padding-right: 0.5vw;
+    top: 29vh;
+  }
+  .discover-accent-card {
+    bottom: 2vh;
+    right: 5vw;
+  }
+  .discover-button {
+    align-self: center;
+  }
 }
 /* small screen */
 @media (max-width: 575.98px) {
