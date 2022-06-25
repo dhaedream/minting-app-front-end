@@ -71,10 +71,29 @@
   padding: 1vh 6vw;
   text-align: right;
 }
+@media screen and (max-width: 1450px) {
+  .discover-left {
+    border: 3px solid yellow;
+  }
+  .discover-art {
+    max-height: 60vh;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .discover-left {
     border: 3px solid white;
+  }
+  .discover-art {
+    max-height: 54vh;
+    /* height: 30vh; */
+  }
+  .discover-right {
+    padding-right: 1vw;
+    position: absolute;
+    /* 15vh looks nice to "float" down  */
+    top: 20vh;
+    right: 0;
   }
 }
 
@@ -117,7 +136,7 @@
     /* height: 30vh; */
   }
   .discover-right {
-    padding-right: 0.5vw;
+    padding-right: 5vw;
     top: 29vh;
   }
   .discover-accent-card {
@@ -130,4 +149,37 @@
 }
 /* small screen */
 @media (max-width: 575.98px) {
+  .discover {
+    border: 3px solid pink;
+    margin: 1vh 0 2vh 0;
+    height: 97vh;
+  }
+  .discover-right {
+    padding-right: 0;
+    position: absolute;
+    /* 15vh looks nice to "float" down  */
+    top: 35vh;
+    right: 0;
+  }
+  .discover-left-bottom p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 475.98px) {
+  .discover {
+    border: 3px solid green;
+    margin: 0.7rem;
+    height: 100vh;
+  }
+  .discover-art {
+    min-height: 440px;
+    max-height: 44vh;
+  }
+  .discover-right {
+    padding-right: 0;
+    position: absolute;
+    /* 15vh looks nice to "float" down  */
+    top: 41vh;
+    right: 0;
+  }
 }
