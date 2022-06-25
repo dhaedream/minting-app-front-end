@@ -81,18 +81,22 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .discover {
+    height: 65vh;
+  }
   .discover-left {
     border: 3px solid white;
   }
   .discover-art {
-    max-height: 56vh;
-    /* height: 30vh; */
+    /* height: 90vh; */
+    width: 50vw;
+    /* height: 84vw; */
   }
   .discover-right {
     padding-right: -1vw;
     position: absolute;
     /* 15vh looks nice to "float" down  */
-    top: 20vh;
+    top: 25vh;
     right: 0;
   }
 }
