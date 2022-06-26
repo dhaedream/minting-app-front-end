@@ -52,7 +52,8 @@
   right: 0;
 }
 .discover-art {
-  max-height: 75vh;
+  height: 75vh;
+  /* max-height: 75vh; */
   width: auto;
   /* height: auto; */
   z-index: -1;
@@ -93,7 +94,8 @@
     /* height: 84vw; */
   }
   .discover-right {
-    padding-right: -1vw;
+    padding-left: -1vw;
+
     position: absolute;
     /* 15vh looks nice to "float" down  */
     top: 25vh;
@@ -159,11 +161,11 @@
     border: 3px solid orange;
   }
   .discover-right {
-    padding-right: 9vw;
-    top: 29vh;
+    padding-right: 19vw;
+    top: 27vh;
   }
   .discover-art {
-    max-height: 58vh;
+    height: 58vh;
     padding: 3rem;
   }
 }
@@ -180,10 +182,11 @@
   }
   .discover-right {
     padding-right: 9vw;
-    top: 28vh;
+    top: 26vh;
   }
   .discover-art {
-    max-height: 55vh;
+    height: 55vh;
+    width: auto;
     padding: 3rem;
   }
 }
@@ -201,8 +204,12 @@
     padding-right: 0;
     position: absolute;
     /* 15vh looks nice to "float" down  */
-    top: 35vh;
+    top: 28vh;
     right: 0;
+  }
+  .discover-art {
+    height: 75vh;
+    width: auto;
   }
   .discover-left-bottom p {
     font-size: 2rem;
@@ -226,6 +233,7 @@
     height: 44vh;
   }
   .discover-right {
+    padding-left: 5vw;
     padding-right: 0;
     position: absolute;
     /* 15vh looks nice to "float" down  */

@@ -2,7 +2,7 @@
   border: 3px solid rgb(67, 67, 67);
   border-radius: 25px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   background: rgb(63, 94, 251);
   background: linear-gradient(
     265deg,
@@ -12,8 +12,8 @@
   padding: 1vh 1vh;
 }
 .navbar__logo-container {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
 }
 .navbar__logo {
   width: 100%;
@@ -41,6 +41,19 @@
   outline: none;
   border-radius: 3px;
 }
+.navbar__hamb_container {
+  height: 75px;
+  width: 75px;
+}
+.navbar__hamb {
+  max-height: 75px;
+  max-width: 75px;
+}
+.navbar__hamb img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 /* medium screen */
 @media screen and (max-width: 992px) {
 }

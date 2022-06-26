@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import "./navbar.css";
+import hamb from "../../assets/hamb.png";
 
 const Navbar = () => {
   return (
@@ -26,6 +27,9 @@ const Navbar = () => {
           </Link>
         </div>
         <button className="navbar__button">Connect</button>
+      </div>
+      <div className="navbar__hamb_container">
+        <img src={hamb} alt="menu" />
       </div>
     </div>
   );
