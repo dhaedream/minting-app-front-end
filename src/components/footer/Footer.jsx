@@ -22,7 +22,7 @@ const Footer = () => {
             Community
           </Link>
         </div>
-        <div>
+        <div className="footer__button-container">
           <button className="footer__button">Connect</button>
         </div>
       </div>

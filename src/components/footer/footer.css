@@ -28,7 +28,25 @@
 }
 /* medium screen */
 @media screen and (max-width: 992px) {
+  .footer-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__button {
+    display: none;
+  }
 }
 /* small screen */
 @media (max-width: 575.98px) {
+  .footer-links-container {
+    flex-direction: column;
+  }
+  .footer__button {
+    display: none;
+  }
+  .footer__links-item {
+    line-height: 2.2em;
+    font-size: 2rem;
+  }
 }

@@ -2,7 +2,7 @@
   border: 3px solid rgb(67, 67, 67);
   border-radius: 25px;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   background: rgb(63, 94, 251);
   background: linear-gradient(
     265deg,
@@ -59,4 +59,7 @@
 }
 /* small screen */
 @media (max-width: 575.98px) {
+  .navbar__links-item {
+    display: none;
+  }
 }
